@@ -20,9 +20,10 @@ const Display = () => {
         displayRef.current.style.background = `#121212`;
       }
     }
-  }, [isAlbum, bgColor]); // Dependency array ensures effect runs only when these values change.
-
+  }, [isAlbum, bgColor]); 
+  
   return (
+    <>
     <div
       ref={displayRef}
       className="w-[100%] m-2 px-6 pt-4 rounded bg-[#121212] text-white overflow-auto lg:w-[75%] lg:ml-0"
@@ -32,6 +33,7 @@ const Display = () => {
         <Route path="/album/:id" element={<DisplayAlbum />} />
       </Routes>
     </div>
+    </>
   );
 };
 
