@@ -3,6 +3,10 @@
 ## created by :-
 Shantanu Nanasaheb Game , student in Amrutwahini college of Engg. Sangamner. Im 2nd year Computer engg. Student exploring the world of Tech.
 
+## description :-
+This Spotify clone is a React-powered web application that replicates the core functionalities of the popular music streaming platform. With an intuitive design and smooth user experience, it allows users to explore, play, and manage their favorite music seamlessly
+
+
 ## Features :-
 Featured Charts Section: Displays curated charts like "Top 50 Global" or "Top Songs India," providing users with access to trending tracks.
 
